@@ -9,7 +9,8 @@ Genre = require('./models/genre');
 Book = require('./models/book');
 
 // Connect to Mongoose
-mongoose.connect('mongodb://localhost/bookstore');
+mongoose.connect('mongodb://ebook:8332965Lam@ds030827.mlab.com:30827/lamnguyen');
+// mongoose.connect('mongodb://localhost/bookstore');
 var db = mongoose.connection;
 app.get('/', function(req, res) {
     res.send('Hello World!');
