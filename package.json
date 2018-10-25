@@ -7,9 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "*",
+    "bcrypt": "^3.0.2",
+    "bcryptjs": "*",
     "body-parse": "*",
-    "mongoose": "*"
+    "cors": "*",
+    "ejs": "^2.6.1",
+    "express": "*",
+    "express-jwt": "*",
+    "express-session": "^1.15.6",
+    "fbgraph": "^1.4.4",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1"
   },
   "author": "Lam Nguyen",
   "license": "ISC"
